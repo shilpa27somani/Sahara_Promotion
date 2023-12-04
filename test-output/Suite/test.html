@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>TestNG:  test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 02 10:23:47 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>88 seconds (88131 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='NewSahara.Promotions_SaharaProperty.ADVANCE_PURCHASE()'><b>ADVANCE_PURCHASE</b><br>Test class: NewSahara.Promotions_SaharaProperty<br/>
+<a href="#Output-1363296771" onClick='toggleBox("Output-1363296771", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1363296771" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1363296771">
+URL Launched successfully<br/>
+CheckInDate - 3oJan<br/>
+CheckOutDate - 31Jan<br/>
+20.00  -- ADVANCE_PURCHASE discount prize<br/>
+130.00  --this is total value of the std room after discount before the click on book<br/>
+flat tax_Fixed type
+INR 10.00<br/>
+flat tax for percentage
+INR 10.00<br/>
+slab tax on rack rate fixed type
+INR 10.00<br/>
+130.00<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>NewSahara.Promotions_SaharaProperty@dcfda20</td></tr>
+<tr>
+<td title='NewSahara.Promotions_SaharaProperty.DISCOUNT_PER_STAY()'><b>DISCOUNT_PER_STAY</b><br>Test class: NewSahara.Promotions_SaharaProperty<br/>
+<a href="#Output-1446362322" onClick='toggleBox("Output-1446362322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1446362322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1446362322">
+URL Launched successfully<br/>
+flat tax_Fixed type
+INR 10.00<br/>
+flat tax for percentage
+INR 11.50<br/>
+slab tax on rack rate fixed type
+INR 10.00<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>NewSahara.Promotions_SaharaProperty@dcfda20</td></tr>
+<tr>
+<td title='NewSahara.Promotions_SaharaProperty.MULTINIGHT()'><b>MULTINIGHT</b><br>Test class: NewSahara.Promotions_SaharaProperty<br/>
+<a href="#Output-483529787" onClick='toggleBox("Output-483529787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-483529787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-483529787">
+URL Launched successfully<br/>
+Check In Date 30 Dec<br/>
+Check Out Date 31 Dec<br/>
+10.00   --Multinight type of discount prize<br/>
+141.00  --this is total value of the std room after discount before the click on book<br/>
+INR 141.00  --this is total value of the std room with discount after click on book<br/>
+141.00<br/>
+flat tax_Fixed type
+INR 10.00<br/>
+flat tax for percentage
+INR 11.00<br/>
+slab tax on rack rate fixed type
+INR 10.00<br/>
+141.00<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>NewSahara.Promotions_SaharaProperty@dcfda20</td></tr>
+</table><p>
+</body>
+</html>

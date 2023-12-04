@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[URL Launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Check In Date 30 Dec]]>
+    </line>
+    <line>
+      <![CDATA[Check Out Date 31 Dec]]>
+    </line>
+    <line>
+      <![CDATA[10.00   --Multinight type of discount prize]]>
+    </line>
+    <line>
+      <![CDATA[141.00  --this is total value of the std room after discount before the click on book]]>
+    </line>
+    <line>
+      <![CDATA[INR 141.00  --this is total value of the std room with discount after click on book]]>
+    </line>
+    <line>
+      <![CDATA[141.00]]>
+    </line>
+    <line>
+      <![CDATA[flat tax_Fixed type
+INR 10.00]]>
+    </line>
+    <line>
+      <![CDATA[flat tax for percentage
+INR 11.00]]>
+    </line>
+    <line>
+      <![CDATA[slab tax on rack rate fixed type
+INR 10.00]]>
+    </line>
+    <line>
+      <![CDATA[141.00]]>
+    </line>
+    <line>
+      <![CDATA[URL Launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[CheckInDate - 3oJan]]>
+    </line>
+    <line>
+      <![CDATA[CheckOutDate - 31Jan]]>
+    </line>
+    <line>
+      <![CDATA[20.00  -- ADVANCE_PURCHASE discount prize]]>
+    </line>
+    <line>
+      <![CDATA[130.00  --this is total value of the std room after discount before the click on book]]>
+    </line>
+    <line>
+      <![CDATA[flat tax_Fixed type
+INR 10.00]]>
+    </line>
+    <line>
+      <![CDATA[flat tax for percentage
+INR 10.00]]>
+    </line>
+    <line>
+      <![CDATA[slab tax on rack rate fixed type
+INR 10.00]]>
+    </line>
+    <line>
+      <![CDATA[130.00]]>
+    </line>
+    <line>
+      <![CDATA[URL Launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[flat tax_Fixed type
+INR 10.00]]>
+    </line>
+    <line>
+      <![CDATA[flat tax for percentage
+INR 11.50]]>
+    </line>
+    <line>
+      <![CDATA[slab tax on rack rate fixed type
+INR 10.00]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-04T09:56:14 IST" name="Default suite" finished-at="2023-12-04T09:57:52 IST" duration-ms="98349">
+    <groups>
+    </groups>
+    <test started-at="2023-12-04T09:56:14 IST" name="Default test" finished-at="2023-12-04T09:57:52 IST" duration-ms="98349">
+      <class name="NewSahara.Promotions_SaharaProperty">
+        <test-method is-config="true" signature="getProperty()[pri:0, instance:NewSahara.Promotions_SaharaProperty@a4b2d8f]" started-at="2023-12-04T09:56:14 IST" name="getProperty" finished-at="2023-12-04T09:56:14 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProperty -->
+        <test-method signature="MULTINIGHT()[pri:0, instance:NewSahara.Promotions_SaharaProperty@a4b2d8f]" started-at="2023-12-04T09:56:14 IST" name="MULTINIGHT" finished-at="2023-12-04T09:56:42 IST" duration-ms="28001" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL Launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Check In Date 30 Dec]]>
+            </line>
+            <line>
+              <![CDATA[Check Out Date 31 Dec]]>
+            </line>
+            <line>
+              <![CDATA[10.00   --Multinight type of discount prize]]>
+            </line>
+            <line>
+              <![CDATA[141.00  --this is total value of the std room after discount before the click on book]]>
+            </line>
+            <line>
+              <![CDATA[INR 141.00  --this is total value of the std room with discount after click on book]]>
+            </line>
+            <line>
+              <![CDATA[141.00]]>
+            </line>
+            <line>
+              <![CDATA[flat tax_Fixed type
+INR 10.00]]>
+            </line>
+            <line>
+              <![CDATA[flat tax for percentage
+INR 11.00]]>
+            </line>
+            <line>
+              <![CDATA[slab tax on rack rate fixed type
+INR 10.00]]>
+            </line>
+            <line>
+              <![CDATA[141.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MULTINIGHT -->
+        <test-method signature="ADVANCE_PURCHASE()[pri:1, instance:NewSahara.Promotions_SaharaProperty@a4b2d8f]" started-at="2023-12-04T09:56:42 IST" name="ADVANCE_PURCHASE" finished-at="2023-12-04T09:57:16 IST" duration-ms="34025" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL Launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[CheckInDate - 3oJan]]>
+            </line>
+            <line>
+              <![CDATA[CheckOutDate - 31Jan]]>
+            </line>
+            <line>
+              <![CDATA[20.00  -- ADVANCE_PURCHASE discount prize]]>
+            </line>
+            <line>
+              <![CDATA[130.00  --this is total value of the std room after discount before the click on book]]>
+            </line>
+            <line>
+              <![CDATA[flat tax_Fixed type
+INR 10.00]]>
+            </line>
+            <line>
+              <![CDATA[flat tax for percentage
+INR 10.00]]>
+            </line>
+            <line>
+              <![CDATA[slab tax on rack rate fixed type
+INR 10.00]]>
+            </line>
+            <line>
+              <![CDATA[130.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ADVANCE_PURCHASE -->
+        <test-method signature="DISCOUNT_PER_STAY()[pri:3, instance:NewSahara.Promotions_SaharaProperty@a4b2d8f]" started-at="2023-12-04T09:57:16 IST" name="DISCOUNT_PER_STAY" finished-at="2023-12-04T09:57:52 IST" duration-ms="36244" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL Launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[flat tax_Fixed type
+INR 10.00]]>
+            </line>
+            <line>
+              <![CDATA[flat tax for percentage
+INR 11.50]]>
+            </line>
+            <line>
+              <![CDATA[slab tax on rack rate fixed type
+INR 10.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DISCOUNT_PER_STAY -->
+      </class> <!-- NewSahara.Promotions_SaharaProperty -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
