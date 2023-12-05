@@ -20,7 +20,7 @@ import org.testng.annotations.Test;
 import Utility.ConfigReader;
 import Utility.GenericUtility;
 
-@Listeners(List.class)
+@Listeners(Listners.class)
 public class Addons_shilpa   {
 	
 	private GenericUtility gu = new GenericUtility();

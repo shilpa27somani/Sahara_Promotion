@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="1" name="Test">
 	    <parameter name="browser" value="Chrome"></parameter>
 	     <classes>
       <class name="CrossBrowser.Cross_Browser"/>
@@ -9,7 +9,7 @@
     </classes>
   </test> <!-- Test -->
   
-   <test thread-count="5" name="Testfirefox">
+   <test thread-count="1" name="Testfirefox">
 	  <parameter name="browser" value="firefox"></parameter>
     <classes>
       <class name="CrossBrowser.Cross_Browser"/>
