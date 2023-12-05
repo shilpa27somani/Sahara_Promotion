@@ -78,7 +78,18 @@
     	<artifactId>TRestAssured_Framework</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
+    
+  
+    
   </dependencies>
+ 
+<repositories>
+    <repository>
+        <id>your-repository-id</id>
+        <url>https://github.com/shilpa27somani/Sahara_Promotion.git</url>
+    </repository>
+</repositories>
+
 
 <build>
 		<plugins>

@@ -9,6 +9,8 @@
       <class name="NewSahara.Promotions_SaharaProperty">
         <methods>
           <include name="ADVANCE_PURCHASE"/>
+          <include name="MULTINIGHT"/>
+          <include name="DISCOUNT_PER_STAY"/>
           <include name="getProperty"/>
         </methods>
       </class> <!-- NewSahara.Promotions_SaharaProperty -->
